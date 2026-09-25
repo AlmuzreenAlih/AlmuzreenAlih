@@ -18,11 +18,11 @@
     <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
     <circle cx="46" cy="19" r="6" fill="#ffbd2e"/>
     <circle cx="68" cy="19" r="6" fill="#27c93f"/>
-    <text x="450" y="24" fill="#7fa8b3" font-size="13" text-anchor="middle">whoami.sh</text>
+    <text x="450" y="24" fill="#7fa8b3" font-size="13" text-anchor="middle">WhoAmI</text>
 
     <!-- prompt -->
     <text x="32" y="70" font-size="15">
-      <tspan fill="#27c93f">almuzreen@engineer</tspan><tspan fill="#7fa8b3"> ~ % </tspan><tspan fill="#e6e6e6">whoami --verbose</tspan>
+      <tspan fill="#27c93f">almuzreen@engineer</tspan><tspan fill="#7fa8b3"> ~ % </tspan><tspan fill="#e6e6e6">WhoAmI --verbose</tspan>
     </text>
 
     <!-- rows -->
