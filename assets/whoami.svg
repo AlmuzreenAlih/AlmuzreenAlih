@@ -1,0 +1,57 @@
+<svg width="900" height="330" viewBox="0 0 900 330" xmlns="http://www.w3.org/2000/svg" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#16323d"/>
+      <stop offset="100%" stop-color="#203a43"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="900" height="330" rx="14" ry="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect x="0" y="0" width="900" height="330" fill="url(#bg)"/>
+
+    <!-- title bar -->
+    <rect x="0" y="0" width="900" height="38" fill="#0b1a1f"/>
+    <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
+    <circle cx="46" cy="19" r="6" fill="#ffbd2e"/>
+    <circle cx="68" cy="19" r="6" fill="#27c93f"/>
+    <text x="450" y="24" fill="#7fa8b3" font-size="13" text-anchor="middle">whoami.sh</text>
+
+    <!-- prompt -->
+    <text x="32" y="70" font-size="15">
+      <tspan fill="#27c93f">almuzreen@engineer</tspan><tspan fill="#7fa8b3"> ~ % </tspan><tspan fill="#e6e6e6">whoami --verbose</tspan>
+    </text>
+
+    <!-- rows -->
+    <g font-size="15">
+      <text x="32" y="112" fill="#36BCF7" font-weight="600">Role</text>
+      <text x="210" y="112" fill="#e6e6e6">Full Stack Dev · GenAI Engineer · Embedded Systems Engineer</text>
+
+      <text x="32" y="142" fill="#36BCF7" font-weight="600">Experience</text>
+      <text x="210" y="142" fill="#e6e6e6">7+ years · 100+ projects shipped end-to-end</text>
+
+      <text x="32" y="172" fill="#36BCF7" font-weight="600">Currently</text>
+      <text x="210" y="172" fill="#e6e6e6">Building GPT vision + YOLO pipelines that replace manual inspection</text>
+
+      <text x="32" y="202" fill="#36BCF7" font-weight="600">Hardware</text>
+      <text x="210" y="202" fill="#e6e6e6">ESP32 · Arduino · Raspberry Pi</text>
+
+      <text x="32" y="232" fill="#36BCF7" font-weight="600">Radios</text>
+      <text x="210" y="232" fill="#e6e6e6">GSM · GPS · LoRa · Bluetooth · Zigbee</text>
+
+      <text x="32" y="262" fill="#36BCF7" font-weight="600">License</text>
+      <text x="210" y="262" fill="#e6e6e6">Licensed Electronics Engineer (PRC)</text>
+
+      <text x="32" y="292" fill="#36BCF7" font-weight="600">Philosophy</text>
+      <text x="210" y="292" fill="#e6e6e6">Solve the client's real bottleneck, not just the feature request</text>
+    </g>
+
+    <!-- blinking cursor -->
+    <rect x="32" y="304" width="9" height="16" fill="#36BCF7">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.5;1;1" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

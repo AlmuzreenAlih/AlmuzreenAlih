@@ -23,19 +23,9 @@ I build systems **from the hardware up**: a sensor on a board, firmware on an ES
 
 For **7+ years** I've shipped **100+ projects** across web, mobile, IoT, and applied AI. Lately I've been focused on **production Generative AI**: vision-language pipelines that replace slow, manual visual inspection with real-time, automated decisions.
 
-```
-
-almuzreen@engineer ~ % whoami --verbose
-
-  Role        Full Stack Dev · GenAI Engineer · Embedded Systems Engineer
-  Experience  7+ years · 100+ projects shipped end-to-end
-  Currently   Building GPT vision + YOLO pipelines that replace manual inspection
-  Hardware    ESP32 · Arduino · Raspberry Pi
-  Radios      GSM · GPS · LoRa · Bluetooth · Zigbee
-  License     Licensed Electronics Engineer (PRC)
-  Philosophy  Solve the client's real bottleneck, not just the feature request
-
-```
+<p align="center">
+  <img src="./assets/whoami.svg" alt="whoami --verbose" width="100%" />
+</p>
 
 ---
 
